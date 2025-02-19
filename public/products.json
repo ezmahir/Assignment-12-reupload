@@ -1,0 +1,44 @@
+[
+  {
+    "productName": "Smart Wireless Earbuds",
+    "productImageLink": "https://i.ibb.co.com/St8Z6g4/wallpaperflare-com-wallpaper.jpg",
+    "description": "High-quality wireless earbuds with active noise cancellation and a sleek design.",
+    "ownerName": "TechWorld Inc.",
+    "externalLinkToBuy": "https://example.com/buy/earbuds"
+  },
+  {
+    "productName": "Ergonomic Office Chair",
+    "productImageLink": "https://i.ibb.co.com/r47MsDJ/wallpaperflare-com-wallpaper-2.jpg",
+    "description": "Comfortable and adjustable office chair with lumbar support for long work hours.",
+    "ownerName": "Furniture Co.",
+    "externalLinkToBuy": "https://example.com/buy/office-chair"
+  },
+  {
+    "productName": "4K Ultra HD Smart TV",
+    "productImageLink": "https://i.ibb.co.com/Thc2wtr/1wallpaperflare-com-wallpaper.jpg",
+    "description": "A 55-inch 4K UHD Smart TV with vibrant picture quality and streaming apps.",
+    "ownerName": "Home Electronics Ltd.",
+    "externalLinkToBuy": "https://example.com/buy/smart-tv"
+  },
+  {
+    "productName": "Gaming Laptop",
+    "productImageLink": "https://i.ibb.co.com/Thc2wtr/1wallpaperflare-com-wallpaper.jpg",
+    "description": "High-performance gaming laptop with an RTX 4060 GPU and 16GB RAM.",
+    "ownerName": "TechGear Solutions",
+    "externalLinkToBuy": "https://example.com/buy/gaming-laptop"
+  },
+  {
+    "productName": "Stainless Steel Water Bottle",
+    "productImageLink": "https://i.ibb.co.com/Thc2wtr/1wallpaperflare-com-wallpaper.jpg",
+    "description": "Insulated water bottle that keeps your drinks cold for 24 hours and hot for 12 hours.",
+    "ownerName": "EcoHydrate",
+    "externalLinkToBuy": "https://example.com/buy/water-bottle"
+  },
+  {
+    "productName": "Smart Wireless Earbuds",
+    "productImageLink": "https://i.ibb.co.com/St8Z6g4/wallpaperflare-com-wallpaper.jpg",
+    "description": "High-quality wireless earbuds with active noise cancellation and a sleek design.",
+    "ownerName": "TechWorld Inc.",
+    "externalLinkToBuy": "https://example.com/buy/earbuds"
+  }
+]
