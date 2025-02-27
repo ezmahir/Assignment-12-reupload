@@ -34,13 +34,13 @@ const AllProducts = () => {
       <div className="w-full flex justify-center mx-auto mb-10 space-x-10">
         <button
           className="btn btn-accent"
-          onClick={() => setSortOrder("oldest")} // Ascending order
+          onClick={() => setSortOrder("oldest")}
         >
           Sort from Oldest to Latest
         </button>
         <button
           className="btn btn-accent"
-          onClick={() => setSortOrder("latest")} // Descending order
+          onClick={() => setSortOrder("latest")}
         >
           Sort from Latest to Oldest
         </button>
