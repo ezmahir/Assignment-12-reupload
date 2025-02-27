@@ -24,11 +24,21 @@ const Navbar = () => {
       <li>
         <NavLink to="/dashboard">Dashboard</NavLink>
       </li>
+      {user && (
+        <>
+          <li>
+            <NavLink to="dashboard/addproducts">Add Products</NavLink>
+          </li>
+          <li>
+            <NavLink to="dashboard/myaddedproducts">My Added Products</NavLink>
+          </li>
+        </>
+      )}
     </>
   );
 
   return (
-    <div className="navbar w-full mx-auto mt-5 bg-lime-200 rounded-3xl p-3 mb-10 sticky top-0">
+    <div className="navbar w-full mx-auto mt-5 bg-lime-200 rounded-3xl p-3 mb-10 sticky top-0 z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

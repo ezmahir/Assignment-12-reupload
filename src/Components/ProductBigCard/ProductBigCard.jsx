@@ -46,7 +46,7 @@ const ProductBigCard = ({ product }) => {
         <div className="card-actions flex flex-col mt-5 mb-2">
           <div className="flex justify-evenly w-full">
             <Link to={`/products/${_id}`}>
-              <button className="btn btn-primary px-6 py-2 rounded-lg text-white">
+              <button className="btn bg-lime-500 px-6 py-2 rounded-lg text-white">
                 View Details
               </button>
             </Link>
@@ -60,7 +60,7 @@ const ProductBigCard = ({ product }) => {
           </div>
           <div className="flex justify-center w-full my-2">
             <Link to={`/products/${_id}`}>
-              <button className="btn btn-success">
+              <button className="btn bg-lime-500">
                 <BiUpvote /> Upvote
               </button>
             </Link>
