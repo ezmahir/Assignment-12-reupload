@@ -12,7 +12,7 @@ const UnderReview = () => {
     <div>
       <div className="text-center">
         <p className="text-5xl font-bold mb-16">
-          These Products are waiting to be reviewed
+          These Products are waiting to be reviewed by a moderator
         </p>
       </div>
       <div>
