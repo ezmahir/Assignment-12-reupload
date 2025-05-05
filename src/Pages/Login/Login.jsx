@@ -20,7 +20,7 @@ const Login = () => {
       })
       .catch((error) => {
         console.log(error);
-        alert("Email and Password does not match");
+        alert("Email and Password does not match. Please Try Again");
       });
   };
   return (
@@ -28,7 +28,7 @@ const Login = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
           <form onSubmit={handlLogin} className="card-body">
-            <h1 className="text-5xl font-bold">Login now!</h1>
+            <h1 className="text-5xl font-bold">Login now!!</h1>
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
