@@ -110,7 +110,7 @@ const ReviewProduct = ({ product }) => {
             <span className="text-2xl">Description:</span> {description}
           </p>
           <p className="text-sm text-gray-500 mb-4">
-            <span className="font-semibold">Upvotes: {upvote}</span>
+            <span className="font-semibold">Upvotes count: {upvote}</span>
           </p>
           <p>Owner Name: {ownerName}</p>
           <p>Owner Email: {ownerEmail}</p>
