@@ -16,7 +16,7 @@ const MyAddedProducts = () => {
     <div>
       <div className="text-center">
         <p className="text-5xl font-bold mb-16">
-          All Products here are added by you
+          All Products here are added by you is shown here
         </p>
       </div>
       <div>
