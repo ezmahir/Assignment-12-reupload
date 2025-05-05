@@ -19,13 +19,8 @@ import { IoAddCircleOutline } from "react-icons/io5";
 import { RiUserSettingsLine } from "react-icons/ri";
 import useAdmin from "../../Hooks/useAdmin";
 import useModerator from "../../Hooks/useModerator";
-// import useCart from "../hooks/useCart";
-// import useAdmin from "../hooks/useAdmin";
-const Dashboard = () => {
-  //   const [cart] = useCart();
 
-  // Todo: get isAdmin Value from the Db
-  //   const [isAdmin] = useAdmin();
+const Dashboard = () => {
   const [isAdmin] = useAdmin();
   const [isModerator] = useModerator();
   return (
@@ -76,66 +71,6 @@ const Dashboard = () => {
               </li>
             </>
           )}
-
-          {/* {isAdmin ? (
-            <>
-              {" "}
-              <li>
-                <NavLink to="/dashboard/adminHome">
-                  <FaHome></FaHome> Admin Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard/addItems">
-                  <FaCalendar></FaCalendar> Add Items
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard/bookings">
-                  <MdOutlineReviews /> Manage Bookings
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard/manageItems">
-                  <ImCart /> Manage Items
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard/users">
-                  <FaList></FaList> All Users
-                </NavLink>
-              </li>
-            </>
-          ) : (
-            <>
-              {" "}
-              <li>
-                <NavLink to="/dashboard/userHome">
-                  <FaHome></FaHome> User Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard/reservation">
-                  <FaCalendar></FaCalendar> Reservation
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard/review">
-                  <MdOutlineReviews /> Add a Review
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard/cart">
-                  <ImCart /> My Cart: {cart.length}
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/dashboard/bookings">
-                  <FaList></FaList> My Bookings
-                </NavLink>
-              </li>
-            </>
-          )} */}
         </ul>
       </div>
       {/* Dashboard Content */}
