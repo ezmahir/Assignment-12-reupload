@@ -28,7 +28,7 @@ const AllProducts = () => {
     <div>
       <div className="text-center">
         <p className="text-5xl font-bold mb-16">
-          All of the available Products are here
+          All of the Available Products are here
         </p>
       </div>
       <div className="w-full flex justify-center mx-auto mb-10 space-x-10">
