@@ -39,7 +39,7 @@ const ProductBigCard = ({ product }) => {
         <h2 className="text-2xl font-bold text-gray-800 mb-2">{productName}</h2>
         <p className="text-gray-600 mb-4">{description}</p>
         <p className="text-sm text-gray-500 mb-4">
-          <span className="font-semibold">Upvotes: {upvote}</span>
+          <span className="font-semibold">Upvotes count: {upvote}</span>
         </p>
         <p>Owner Name: {ownerName}</p>
         <p>Buy: {externalLinkToBuy}</p>
