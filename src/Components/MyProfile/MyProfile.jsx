@@ -19,7 +19,7 @@ const MyProfile = () => {
           </h2>
 
           <p>Email: {user?.email}</p>
-          <p>Membership: Not Available</p>
+          <p>Membership: Not Available right now</p>
         </div>
       </div>
     </>
